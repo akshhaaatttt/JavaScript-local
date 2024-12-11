@@ -42,3 +42,29 @@ console.log(typeof bigNumber)
 console.log(typeof outsideTemp)
 console.log(typeof scoreValue)
 console.log(typeof myFunction)
+
+
+//*************************************** */
+
+//Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "akshat_batmannnn"
+
+let anothername = myYoutubename
+anothername = "chai pio biskit khao"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let user1 = {
+    email: "akshat@batman.com",
+    upi: "user@sbi",
+}
+
+let user2 = user1
+
+user2.email = "jain@google.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
