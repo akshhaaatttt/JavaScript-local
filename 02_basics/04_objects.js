@@ -48,13 +48,50 @@ const users = [
 ]
 users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//this propert is used to find something in the object
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//this propert is used to find something in the object
+// console.log(tinderUser.hasOwnProperty('isLogged'));
 
 
+
+//destructuring
+
+const course = {
+    coursename: "batman vs superman",
+    price: "999",
+    Whowins: "batman"
+}
+
+// course.Whowins
+
+const {Whowins: winner} = course
+
+//console.log(Whowins);
+console.log(winner);
+
+// const navbar = ({company}) => {
+
+// } ***********only for learning purpos not in js it is the topic of react
+
+// navbar(company = "batman")
+
+// {
+//     //JSON **********keys and values both are in string************
+//     "name": "akshat"
+//     "coursename": "batman vs superman"
+//     "Whowins": "batman"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+//Json Formatter***************
+// random user api***************
