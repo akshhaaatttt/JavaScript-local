@@ -31,5 +31,17 @@ function addTwoNumbers(number1,number2/*parameter*/){
 
  }
 const result = addTwoNumbers(3,5)
-console.log("Result: ", result);
+// console.log("Result: ", result);
+
+function loginUserMessage(username = "ironman"){
+    if /*(username === undefined)*/
+        (!username) {
+        console.log("Please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+// console.log(loginUserMessage("Batman"));
+console.log(loginUserMessage());//undefined
 
