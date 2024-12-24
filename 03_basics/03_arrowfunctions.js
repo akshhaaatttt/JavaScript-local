@@ -15,4 +15,27 @@ const user = {
 // user.username = "superman"
 // user.welcomeMessage()
 
-console.log(this);
+// console.log(this);
+
+
+// function chai(){// main functions mai this use nhi kr sakta hu this sirf object mai use hota hai
+//     let username = "batman" 
+//     console.log(this.username);
+// }
+// chai()
+
+const chai = () => {
+    let username = "batman" 
+    console.log(this);
+
+} 
+// chai()
+
+// () => {} // syntax of arrow function
+
+//const addTwo = (num1,num2) => num1 + num2 // single line mai return karne ke liye return keyword ki zarurat nahi hoti hai // implesit return
+
+const addTwo = (num1,num2) => {
+    return num1 + num2
+}
+console.log(addTwo(3,4)) 
