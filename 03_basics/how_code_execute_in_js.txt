@@ -1,0 +1,58 @@
+call stackes
+execution context 
+calls
+
+***************************************************
+
+javascript execution context
+
+it has two phase
+global execution context(EC)
+refers with "this" variable
+
+1.Global EC 
+2.Function EC
+3.Eval EC
+
+Phases:
+    1.Memory Creation Phases {jo bhi declare kiya hai unke liye jagah allocat hoti hai execution nhi hota hai}
+
+    2.Execution Phases {isme execution hota hai}
+
+    example
+
+    let val1 = 10
+    let val2 = 5
+    Function addNum(num1,num2){
+        let total = num1 + num2
+        return total
+    } 
+    let result1 = addNum(val1,val2)
+    let result2 = addNum(10,2)
+
+
+    step 1:
+        Global execution(this)
+    
+    step 2:
+        Memory Phase:
+            val1 = undefined
+            val2 = undefined
+            addNum = defination
+            result1 = undefined
+            result2 = undefined
+    
+    step 3:
+        Execution Phase
+            val1 = 10
+            val2 = 5
+            addNum =====> new variable environment + execution thread (it will delete after Execution context or after its work is over)
+                Memory Phase
+                    val1 => undefined
+                    val2 => undefined
+                    total => undefined
+                
+                Execution context
+                    num1 -> 10
+                    num2 -> 5
+                    total -> 15 this total is returned to the global execution
