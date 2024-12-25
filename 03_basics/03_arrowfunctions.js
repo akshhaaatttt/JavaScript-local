@@ -39,3 +39,7 @@ const addTwo = (num1,num2) => {
     return num1 + num2
 }
 console.log(addTwo(3,4)) 
+
+// const myArray = [1,2,3,4,5,6,7,8,9,10]
+
+// myArray.forEach()
