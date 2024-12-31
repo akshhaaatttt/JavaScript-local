@@ -41,6 +41,10 @@ let val1;
 // val1 = undefined ?? 15 
 val1 = null ?? 10
 
+val2 = null ?? 20
+val2 = null ?? 20
+val2 = null ?? 30
+
 
 
 
