@@ -17,7 +17,9 @@ for (let i = 0; i <= 5; i++) {
         // console.log(`inner loop ${j}`);
         // console.log(i + '*' + j + '=' + i*j);
         
-        
+
+
+        //console.log
     }
     
 }
