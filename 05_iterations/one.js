@@ -6,6 +6,8 @@ for (let  i= 0; i< 10; i++) {
         // console.log("batman is best");
         
     }
+//console.log(`outer loop`)
+    
     // console.log(element);
 }
 
