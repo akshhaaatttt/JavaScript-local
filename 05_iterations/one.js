@@ -9,7 +9,7 @@ for (let  i= 0; i< 10; i++) {
     // console.log(element);
 }
 
-
+ //line commit
 for (let i = 0; i <= 5; i++) {
     console.log(`outer loop ${i}`);
     
