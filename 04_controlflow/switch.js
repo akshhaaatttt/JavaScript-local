@@ -9,6 +9,7 @@
 
 const month = "march"
 
+//console.log
 
 switch (month) {
     case "jan":
