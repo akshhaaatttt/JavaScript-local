@@ -1,3 +1,4 @@
 # JavaScript
  A code to Progress
-Hopes 
+ 
+Here is my first code

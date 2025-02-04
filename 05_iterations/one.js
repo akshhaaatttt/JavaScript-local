@@ -6,10 +6,12 @@ for (let  i= 0; i< 10; i++) {
         // console.log("batman is best");
         
     }
+//console.log(`outer loop`)
+    
     // console.log(element);
 }
 
-
+ //line commit
 for (let i = 0; i <= 5; i++) {
     console.log(`outer loop ${i}`);
     
@@ -17,7 +19,9 @@ for (let i = 0; i <= 5; i++) {
         // console.log(`inner loop ${j}`);
         // console.log(i + '*' + j + '=' + i*j);
         
-        
+
+
+        //console.log
     }
     
 }
